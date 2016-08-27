@@ -1,0 +1,260 @@
+/* custom style written by Frantz Augustin in 2014 */
+
+p, h1, h2, h3, h4, li  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  line-height: 150%;
+    }
+  
+  
+  p,ol {
+  font-size:16px;
+  }
+  a:hover {
+  text-decoration: none;
+  }
+  footer  a{ color: #fff;}
+  
+  body {
+  overflow-x: hidden;
+  }
+  
+    
+#button{
+        text-align: center;
+        padding-top:20px;
+    padding-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  
+    /*styling for image and caption*/
+ .caption { 
+text-align: center; 
+min-height:200px;
+height: auto;
+}
+
+.thumbnail img {
+min-height: 280px;
+height:auto;
+width:100%/9;/* /9 is for ie*/
+}
+
+/*styling for navigation*/
+.navigation  {
+    background-color: #0C090A;   
+}
+ .nav.nav-tabs {
+    border-bottom: none;
+}
+
+.navigation a{
+  color: #fff;
+  text-transform: uppercase;
+ }
+   #brand{
+   word-spacing: 6px;
+   margin-left: 6px;
+   margin-right: 25px;
+   }
+/*Styling for jumbotron class*/
+.jumbotron {
+ background-image: url('images/wichita.jpg');
+   height: 700px;
+   background-size: cover;
+   background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-bottom: 0;
+ }
+.jumbotron  h1{
+      text-align: center;
+    margin-top: 275px;
+    color: #fff;
+}
+.jumbotron h2 {
+  color: #fff;
+}
+
+
+#button{
+  border-radius: 0;
+  }
+
+/*styling for the "our mission section and the company section*/
+
+.box{
+  margin-top: 5%;
+}
+.main{ 
+margin: 25px 5px 25px 5px;
+}
+    
+    
+  .main h2, .main p{
+     line-height: 225%;
+     text-align: justify;
+     margin: 1% 5% 1% 5%;
+    letter-spacing: .2em;
+   }
+  #xa, #xa1, #xa2 {
+  text-align: center;
+  }
+  .main p {
+    font-size: 18px;
+  }
+  .main h2 {
+    text-transform: uppercase;
+  }
+  
+    /*styling for the contact us section*/
+    .contact-us {
+      float: left;
+        padding-left: 150px;
+        padding-top: 125px;
+  }
+  #location{
+        min-width: 100px;
+    width:375px;
+        height: 300px;
+    min-height: 70px;
+    }
+  .form-horizontal {
+      float: right;
+      padding-right: 75px;
+      padding-top:100px;
+  } 
+    .address {
+        text-align: center;
+    clear: both;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    }
+    .contact-page {
+        background-color: #67BCDB;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+  
+  /*Styling for about pages*/
+  .about-me{
+  color: #fff;
+padding:90px 50px 100px 50px;
+background-color:#0068af; 
+text-align: justify;
+}
+.adjuster{ text-align: center;}
+  /*Styling for Service page*/
+  #services {
+color: #fff;
+padding: 100px 50px 100px 50px;
+background-color:#0068af; 
+margin-top:-30px;
+text-align: justify;
+}
+
+    /* styling for the faq page */  
+ .faq {
+  background-color: 0C090A;
+  height: 75px;
+}
+
+.faq h1 {
+    font-size: 48px;
+    text-align: center;
+  color: #fff;
+}
+#faq-page {
+padding: 150px 50px 100px 50px;
+margin-top: 25px;
+background-color: #fff;
+color: 0068af;
+
+}
+
+/*styling for about page*/
+.about-2 p, .about-2 p, .about-1 p, .about-1 h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.about-1 {
+  background-color: #D8CEF6;
+  margin: 0;
+}
+
+.header-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2{
+  height: 500px;
+  background-image: url('images/background.png')
+  }
+.box2 h2{
+  font-size: 4em;
+  margin: 5% 5% 1% 5%;
+  
+}
+.box2 h3 {
+  font-size: 36px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #fff;
+}
+
+
+/*styling for contact page, almost the same as the styling for the contact section*/
+#map-canvas {
+        width: 500px;
+        height: 400px;
+      }
+/*term and conditions pages*/   
+    #terms {
+    margin-top: 100px;
+    }
+     .hashtag h2 {
+   color: #DF013A;
+   text-align: center;
+   font-size: 48px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   font-weight: bold;
+ }
+ #wichita{
+   font-size: 58px;
+ }
+/* styling for the footer*/
+
+footer  {
+   background-color:#0C090A;
+   color: #fff;
+   margin-top:0;
+}
+footer p {
+font-size: 12px;
+}
+ footer h3 { font-size:18px;}
+ 
+
+
+ .footer {
+  font-family: 'Helvetica', sans-serif;
+   float: left;
+   text-transform: uppercase;
+   margin: 20px 5px 20px 5px;
+   padding: 10px 30px 10px 30px;
+   }
+  .info {
+    display: inline-block;
+    margin: 20px 5px 20px 5px;
+    padding: 10px 30px 10px 30px;
+  }
+  .copyright {
+  margin-top: 15px;
+  }
+
