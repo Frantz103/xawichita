@@ -41,10 +41,37 @@
 			endif; ?>
 		</div><!-- .site-branding -->
 
+		<!-- temporary code until I fix it so the header can work in the cms dashboard -->
+		<nav class="navigation navbar-fixed-top" role="navigation">
+<div class="container">
+<ul class="nav nav-tabs">
+	<li class="dropdown hidden-md hidden-lg"><button aria-expanded="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1" type="button"></button>
+	<ul aria-labelledby="dropdownMenu1" class="dropdown-menu" role="menu">
+		<li role="presentation"><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
+		<li role="presentation"><a href="about.html" role="menuitem" tabindex="-1">About</a></li>
+		<li role="presentation"><a href="blog.html" role="menuitem" tabindex="-1">Blog</a></li>
+		<li role="presentation"><a href="lookbook.html" role="menuitem" tabindex="-1">Lookbook</a></li>
+		<li role="presentation"><a href="contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+	</ul>
+	</li>
+	<li><a class="navbar-brand" href="index.html" id="brand">XA Wichita</a></li>
+	<li class="hidden-xs"><a href="index.html">Home</a></li>
+	<li class="hidden-xs"><a href="about.html">About</a></li>
+	<li class="hidden-xs"><a href="blog.html">Blog</a></li>
+	<li class="hidden-xs"><a href="lookbook.html">Lookbook</a></li>
+	<li class="hidden-xs"><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</nav>
+<!-- the temporary header end here-->
+
+<!--
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'xawichita' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
 		</nav><!-- #site-navigation -->
+
+
 	</header><!-- #masthead -->
 
-	<div id="content" class="container-fuild">
+
